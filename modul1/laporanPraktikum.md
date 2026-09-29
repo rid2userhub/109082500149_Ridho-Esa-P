@@ -2,9 +2,29 @@
 <p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+A. Integrated Development Environment (IDE) dan Bahasa C++
+Bahasa C++ merupakan bahasa pemrograman tingkat tinggi yang berorientasi objek (Object-Oriented Programming) sekaligus mendukung pemrograman prosedural, yang dikembangkan sebagai perluasan dari bahasa C untuk menangani kompleksitas perangkat lunak secara lebih efisien [2]. Untuk menulis dan menjalankan kode program, pengembang membutuhkan lingkungan kerja terintegrasi yang menggabungkan berbagai perangkat pengembangan.
+
+1. Pengenalan IDE Code::Blocks
+Code::Blocks merupakan salah satu perangkat lunak Integrated Development Environment (IDE) bersifat open-source yang dirancang secara khusus untuk memfasilitasi penulisan, kompilasi (compiling), pencarian kesalahan (debugging), dan eksekusi program berbahasa C dan C++ secara terpadu [2].
+
+2. Struktur Dasar Program C++
+Setiap kode program dalam C++ tersusun atas beberapa elemen fundamental, meliputi direktif pra-prosesor seperti #include <iostream> untuk mengimpor pustaka input-output, pendeklarasian namespace std, serta fungsi utama int main() yang bertindak sebagai titik awal (entry point) eksekusi oleh sistem operasi [2].
+
+3. Operasi Input dan Output Dasar
+Interaksi antara program dan pengguna dilakukan melalui objek aliran data (stream). Perintah std::cin memanfaatkan operator ekstraksi (>>) untuk menerima masukan data dari papan ketik (keyboard), sedangkan std::cout menggunakan operator penyisipan (<<) untuk menampilkan keluaran informasi ke layar monitor [2].
+
+B. Tipe Data, Kontrol Alur, dan Perulangan Bersarang
+Dalam memproses data numerik maupun teks, algoritma pemrograman mengandalkan variabel dengan alokasi memori yang tepat serta struktur logika yang mengatur jalannya instruksi secara teratur [1], [3].
+
+1. Tipe Data dan Operasi Aritmatika
+Tipe data menentukan jenis nilai serta batasan operasi yang dapat dilakukan pada suatu variabel [1]. Tipe data floating point seperti float digunakan untuk memproses bilangan pecahan atau desimal dengan tingkat presisi tunggal [2]. Operasi dasar aritmatika meliputi penjumlahan (+), pengurangan (-), perkalian (*), serta pembagian (/) yang membutuhkan validasi khusus guna menghindari galat matematis pembagian oleh nilai nol [3].
+
+2. Struktur Kontrol Percabangan (Conditioning)
+Struktur kontrol bersyarat seperti if, else-if, dan else digunakan untuk mengarahkan alur jalannya eksekusi program berdasarkan evaluasi kondisi logika yang bernilai benar (true) atau salah (false) [3]. Struktur ini memungkinkan program mengambil keputusan adaptif, seperti pemetaan angka puluhan dan satuan pada konversi terbilang kata.
+
+3. Perulangan Bersarang (Nested Loop) dan Array
+Perulangan (loop) digunakan untuk mengeksekusi blok kode secara berulang selama kondisi terminasi terpenuhi [1]. Perulangan bersarang (nested loop) adalah konstruksi di mana sebuah struktur perulangan berada di dalam blok perulangan lainnya [3]. Konsep ini lazim diimplementasikan bersama larik (array) untuk manipulasi matriks, pembentukan pola visual simetris, atau penelusuran elemen data secara bertingkat [1], [3].
 
 ## Unguided 
 
@@ -152,15 +172,29 @@ int main() {
 ```
 ### Output Unguided 3 :
 
+https://github.com/rid2userhub/109082500149_Ridho-Esa-P/blob/main/modul1/unguided3.png
+
 
 penjelasan unguided 3
 
 Program ini bertujuan untuk membentuk pola perulangan visual (nested loop) berupa deret angka cermin (mirror) yang dipisahkan oleh karakter bintang (*) di bagian tengah dan mengerucut ke bawah membentuk pola segitiga terbalik sesuai dengan nilai masukan $n$.  
 
 ## Kesimpulan
-...
+
+Berdasarkan praktikum Modul 1 mengenai pengenalan lingkungan pengembangan Code::Blocks dan dasar-dasar pemrograman C++, dapat disimpulkan beberapa hal berikut:
+
+Pemahaman Lingkungan Kerja (IDE) & Struktur Dasar C++: Penggunaan IDE Code::Blocks mempermudah proses penulisan (editing), kompilasi (compiling), hingga eksekusi (running) kode C++. Setiap program C++ membutuhkan pustaka input-output dasar seperti <iostream> serta fungsi utama int main() sebagai titik awal eksekusi program.
+
+Operasi Aritmatika & Tipe Data: Pada program pertama, implementasi tipe data float terbukti efektif dalam menangani bilangan berkoma/desimal. Penanganan kondisi batas seperti validasi pembagian dengan nol menggunakan struktur percabangan if-else sangat penting untuk menghindari kesalahan kalkulasi (runtime error).
+
+Penggunaan Array & Logika Percabangan: Pada program kedua, pemanfaatan larik (array) bertipe data string yang dipadukan dengan struktur percabangan bersyarat bertingkat (if-else if-else) dan operator modulus (%) berhasil menyederhanakan algoritma konversi angka numerik (0–100) menjadi teks terbilang bahasa Indonesia secara terstruktur dan efisien.
+
+Implementasi Perulangan Bersarang (Nested Loop): Pada program ketiga, pembuatan pola cermin (mirror pattern) membuktikan bahwa penggunaan perulangan bersarang bertingkat (nested loop) dapat memanipulasi koordinat matriks baris dan kolom secara akurat, baik dalam pengaturan spasi maupun pencetakan karakter dan deret angka secara dinamis berdasarkan masukan pengguna.
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
+[1] Triase. (2020). Diktat Edisi Revisi: STRUKTUR DATA. Medan: UNIVERSITAS ISLAM NEGERI SUMATERA UTARA MEDAN.
+
+[2] Indahyati, U., & Rahmawati, Y. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: UMSIDA Press. https://doi.org/10.21070/2020/978-623-6833-67-4.
+
+[3] Rosa, A. S., & Shalahuddin, M. (2018). Rekayasa Perangkat Lunak Terstruktur dan Berorientasi Objek. Bandung: Informatika Bandung.Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
 <br>...
