@@ -97,34 +97,65 @@ int main() {
 }
 ### Output Unguided 2 :
 
-##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+https://github.com/rid2userhub/109082500149_Ridho-Esa-P/blob/main/modul1/unguided2.png
 
 penjelasan unguided 2
 
-### 3. (isi dengan soal unguided 3)
+Program ini bertujuan untuk mengonversi masukan berupa bilangan bulat positif dalam rentang 0 hingga 100 menjadi teks terbilang bahasa Indonesia).
+
+### Buatlah program yang dapat memberikan input dan output sbb.
 
 ```C++
-source code unguided 3
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "input: ";
+    cin >> n;
+
+    cout << "output:\n";
+
+    for (int i = n; i >= 1; i--) {
+        // Cetak spasi di awal untuk membentuk perataan segitiga ke kanan
+        for (int spasi = 0; spasi < (n - i) * 2; spasi++) {
+            cout << " ";
+        }
+
+        // Cetak angka menurun di sisi kiri (contoh: 3 2 1)
+        for (int j = i; j >= 1; j--) {
+            cout << j << " ";
+        }
+
+        // Cetak karakter bintang di tengah
+        cout << "*";
+
+        // Cetak angka menaik di sisi kanan (contoh: 1 2 3)
+        for (int j = 1; j <= i; j++) {
+            cout << " " << j;
+        }
+
+        cout << endl;
+    }
+
+    // Baris terakhir (ujung bawah) hanya berupa satu tanda bintang
+    for (int spasi = 0; spasi < n * 2; spasi++) {
+        cout << " ";
+    }
+    cout << "*" << endl;
+
+    return 0;
+}
+
 ```
 ### Output Unguided 3 :
 
-##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 3
+
+Program ini bertujuan untuk membentuk pola perulangan visual (nested loop) berupa deret angka cermin (mirror) yang dipisahkan oleh karakter bintang (*) di bagian tengah dan mengerucut ke bawah membentuk pola segitiga terbalik sesuai dengan nilai masukan $n$.  
 
 ## Kesimpulan
 ...
