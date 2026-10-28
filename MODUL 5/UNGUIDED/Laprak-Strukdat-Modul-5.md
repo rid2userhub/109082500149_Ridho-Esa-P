@@ -616,6 +616,7 @@ address findElm(List L, infotype x);
 #endif
 
 ```
+```
 #include "singlylist.h"
 
 void createList(List &L) {
@@ -661,6 +662,7 @@ address findElm(List L, infotype x) {
     }
     return Nil;
 }
+```
 ```
 #include "singlylist.h"
 
@@ -708,7 +710,7 @@ int main() {
 Program ini merupakan kelanjutan implementasi Singly Linked List bertipe pointer yang berfokus pada operasi pencarian (searching) elemen data secara spesifik di dalam list. Cara kerjanya diawali dengan mengeksekusi fungsi `findElm` yang bertugas menelusuri alamat node satu per satu dimulai dari elemen paling awal. Proses penelusuran ini akan terus bergeser secara berurutan dan otomatis berhenti seketika saat pointer menemukan node yang menyimpan nilai angka 8, yang kemudian hasilnya dikembalikan ke program utama untuk mencetak pesan konfirmasi bahwa data tersebut berhasil ditemukan. 
 
 ### 3. Hitunglah jumlah total info seluruh elemen `(9+12+8+0+2=31)`.
-
+```
 #ifndef SINGLYLIST_H
 #define SINGLYLIST_H
 
@@ -740,6 +742,8 @@ address findElm(List L, infotype x);
 int sumInfo(List L);
 
 #endif
+
+```
 
 ```
 #include "singlylist.h"
@@ -797,7 +801,8 @@ int sumInfo(List L) {
     }
     return total;
 }
-
+```
+```
 #include "singlylist.h"
 
 int main() {
@@ -830,7 +835,9 @@ int main() {
 
     return 0;
 }
+```
 ### Output Unguided 3 : 
+(https://github.com/rid2userhub/109082500149_Ridho-Esa-P/tree/main/MODUL%205/UNGUIDED/SOAL%203)
 
 
 Program ini merupakan implementasi lanjutan dari Singly Linked List bertipe pointer yang berfokus pada operasi penelusuran dan agregasi (penjumlahan) data seluruh elemen di dalam list.   Cara kerjanya diawali dengan mengeksekusi fungsi khusus (sumInfo) yang bertugas menelusuri setiap node secara berurutan mulai dari elemen pertama hingga mencapai akhir list. Selama penelusuran berlangsung, program akan membaca dan menjumlahkan nilai masing-masing elemen (9, 12, 8, 0, dan 2) ke dalam sebuah variabel penampung, lalu mengembalikan dan mencetak hasil kalkulasi akhirnya adalah 31.
