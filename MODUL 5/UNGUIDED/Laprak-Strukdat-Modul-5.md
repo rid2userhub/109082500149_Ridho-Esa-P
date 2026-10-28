@@ -575,7 +575,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1]
+(https://github.com/rid2userhub/109082500149_Ridho-Esa-P/blob/main/MODUL%205/UNGUIDED/OUTPUT/soal1.jpg)
 
 Program ini menggunakan struktur Singly Linked List bertipe pointer (struct) untuk memproses data integer secara dinamis dan modular yang dipisah ke dalam file `singlylist.h`, `singlylist.cpp`, dan `main.cpp`. Cara kerjanya diawali dengan menyiapkan list kosong dan mengalokasikan memori dinamis untuk kelima node. Program kemudian menyisipkan nilai satu per satu yang ditangkap oleh prosedur insertFirst melalui parameter reference, sehingga setiap elemen baru langsung dirangkai dan ditempatkan pada posisi paling awal list. Pada tahap akhir, program menjalankan perulangan penelusuran untuk mencetak seluruh urutan data tersebut.
 
