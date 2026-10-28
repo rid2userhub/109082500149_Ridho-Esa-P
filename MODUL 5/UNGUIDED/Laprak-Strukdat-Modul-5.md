@@ -703,7 +703,7 @@ int main() {
 }
 ```
 ### Output Unguided 2 :
-![Screenshot Output Unguided 2_1] 
+(https://github.com/rid2userhub/109082500149_Ridho-Esa-P/blob/main/MODUL%205/UNGUIDED/OUTPUT/soal2.jpg)
 
 Program ini merupakan kelanjutan implementasi Singly Linked List bertipe pointer yang berfokus pada operasi pencarian (searching) elemen data secara spesifik di dalam list. Cara kerjanya diawali dengan mengeksekusi fungsi `findElm` yang bertugas menelusuri alamat node satu per satu dimulai dari elemen paling awal. Proses penelusuran ini akan terus bergeser secara berurutan dan otomatis berhenti seketika saat pointer menemukan node yang menyimpan nilai angka 8, yang kemudian hasilnya dikembalikan ke program utama untuk mencetak pesan konfirmasi bahwa data tersebut berhasil ditemukan. 
 
